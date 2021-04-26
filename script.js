@@ -56,6 +56,7 @@ const restartGame = () => {
 }
  
 const newGame = () => {
+	userGuess.value = '';
 	btn.disabled = false;
 	seconds+=1;
 	answer = Math.floor(Math.random() * 10) + 1;
